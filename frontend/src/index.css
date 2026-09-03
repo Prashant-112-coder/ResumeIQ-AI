@@ -1,20 +1,7 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
 
-body{
-
-  font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
-
-  background:linear-gradient(
-      135deg,
-      #0f172a,
-      #1e3a8a,
-      #2563eb
-  );
-
-  min-height:100vh;
-
-}
+:root{font-family:'DM Sans',Inter,system-ui,sans-serif;color:#171522;background:#f7f7fb;font-synthesis:none;text-rendering:optimizeLegibility;}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{min-width:320px;min-height:100vh;background:#f7f7fb}
+button,input,select{font:inherit}button{cursor:pointer;border:0}a{text-decoration:none;color:inherit}
